@@ -18,8 +18,9 @@ We want to make sure our local copy of the data is the most up to date version, 
 ## Step 3: Add/Commit changed files
 If files have been changed in the repository, github desktop should already see those changed files and have them checked.
 We want to keep track of those changes so we will write a commit message so we can make a summary of what files are being added/modified.
-Most commonly, your commit message will be: `add data for sub-<label>`, where \<label\> is the subject study identifier.
+Most commonly, your commit message will be: `add sub-<label> data`, where \<label\> is the subject study identifier.
 In the description box, you can provide a more detailed explanation of the changes being made, in case additional files were modified unexpectedly.
+Or in case something went wrong or strange with the data collection.
 ![add/commit changed files](.imgs/step-03_make_commit_message.png)
 
 ## Step 4: Make the commit
