@@ -32,8 +32,10 @@ Once the title and description of the commit is set, select the commit to master
 Finally we will push the changes to github, backing up our data and making it easily accessible to other lab members to analyze the data.
 ![push changes to origin](.imgs/step-05_push_to_origin_master.png)
 
+## Step 6: repeat steps 2-5
+Repeat this process for each "repository" (i.e. generally each task), Until all the tasks have been uploaded to github.
 
-And you're done (with this task's data anyway). 
+
 This process is important to maintain validity of the data and makes the steps from data collection to pretty graphs to impactful results much faster, so thank you for all your help!
 
 For questions please contact: <james-kent@uiowa.edu> via this email, in slack, or in person.
