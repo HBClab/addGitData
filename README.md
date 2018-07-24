@@ -7,13 +7,15 @@ This guide is using [github desktop][2] to keep the data under control and give 
 The steps to back up the data will be completed _after_ the session with the participant is over.
 
 ## Step 1: Open github desktop
-Open github desktop, the desktop icon should be on the main screen of your computer
+Open github desktop, the desktop icon should be on the main screen of your computer.
+
 ![open github desktop](.imgs/step-01_open_github_desktop.png)
 
 ## Step 2: Fetch changes from github
 The correct repository should already be open (however, there may be multiple repositories to switch between).
 We want to make sure our local copy of the data is the most up to date version, so we will ask the server (github) to "fetch" any changes. 
 If there are changes that were pulled from the server, to apply them to the local repository, you will have to click that button again, the button should change from saying `fetch` to saying `pull`.
+
 ![fetch changes from github](.imgs/step-02_click_on_fetch_origin.png)
 
 ## Step 3: Add/Commit changed files
@@ -22,14 +24,17 @@ We want to keep track of those changes so we will write a commit message so we c
 Most commonly, your commit message will be: `add sub-<label> data`, where \<label\> is the subject study identifier.
 In the description box, you can provide a more detailed explanation of the changes being made, in case additional files were modified unexpectedly.
 Or in case something went wrong or strange with the data collection.
+
 ![add/commit changed files](.imgs/step-03_make_commit_message.png)
 
 ## Step 4: Make the commit
 Once the title and description of the commit is set, select the commit to master button.
+
 ![make the commit](.imgs/step-04_select_commit_to_master.png)
 
 ## Step 5: push changes to origin
 Finally we will push the changes to github, backing up our data and making it easily accessible to other lab members to analyze the data.
+
 ![push changes to origin](.imgs/step-05_push_to_origin_master.png)
 
 ## Step 6: repeat steps 2-5
